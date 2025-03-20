@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메인 페이지</title>
+    <link rel="stylesheet" href="../../common/css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../../common/js/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <div class="home">
+                <a href="main.html">
+                    <img src="../images/icon-home.svg" alt="홈">
+                    홈
+                </a>
+            </div>
+            <!-- 로그아웃 상태 -->
+            <div class="user">
+                <a href="회원가입.html">회원가입</a>
+                <a href="#none">로그인</a>
+            </div>
+            <!-- 로그아웃 상태 END -->
+    
+            <!-- 로그인 상태 -->
+            <!-- <div class="user">
+                <a href="#none">마이페이지</a>
+            </div> -->
+            <!-- 로그인 상태 END -->
+        </div>
+        <div id="container">
+            <div class="weather">
+                <strong>우리 동네 기온과 습도는?</strong>
+                <div>
+                    <div class="weather-wrap">
+                        <div>
+                            <img src="../images/icon-temperature.svg" alt="기온">
+                            <p>기온</p>
+                            <p>
+                                <span></span>°C
+                            </p>
+                        </div>
+                    </div>
+                    <div class="weather-wrap">
+                        <div>
+                            <img src="../images/icon-percent.svg" alt="습도">
+                            <p>습도</p>
+                            <p>
+                                <span></span>%
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="notice">
+                <div class="notice-top">
+                    <strong>공지사항</strong>
+                    <a href="#none">
+                        <img src="../images/icon-more.svg" alt="더보기">
+                    </a>
+                </div>
+                <div class="notice-list">
+                    <!-- 메인 페이지 공지사항 : 최신 글 5개 호출 -->
+                    <ul>
+                        <li>
+                            <a href="#none">아파트 규칙에 대해 안내드립니다.</a>
+                        </li>
+                        <li>
+                            <a href="#none">아파트 규칙에 대해 안내드립니다.</a>
+                        </li>
+                        <li>
+                            <a href="#none">아파트 규칙에 대해 안내드립니다.</a>
+                        </li>
+                        <li>
+                            <a href="#none">아파트 규칙에 대해 안내드립니다.</a>
+                        </li>
+                        <li>
+                            <a href="#none">아파트 규칙에 대해 안내드립니다.</a>
+                        </li>
+                    </ul>
+                    <!-- 메인 페이지 공지사항 : 최신 글 5개 호출 END -->
+                </div>
+            </div>
+        </div>
+        <img src="../images/main-bg.png" alt="메인 배경" class="main-bg">
+    </div>
+</body>
+</html>
