@@ -9,15 +9,15 @@ ROS 기반의 자동 순찰 기능과 택배 운반 시스템을 통해 아파�
 
 ## 🧑‍🤝‍🧑 팀원 소개 및 역할
 - 신성진
-  ROS 순찰 로봇 개발
-  MachineLearning & Arduino를 활용해 학습 데이터 기반 출입 제어
+  - ROS 순찰 로봇 개발
+  - MachineLearning & Arduino를 활용해 학습 데이터 기반 출입 제어
 - 김건우
-  ROS 택배 로봇 개발
-  웹 페이지 Frontend 화면 설계, 디자인, 퍼블리싱
+  - ROS 택배 로봇 개발
+  - 웹 페이지 Frontend 화면 설계, 디자인, 퍼블리싱
 - 김바회
-  MachineLearning를 활용한 주민 데이터, 흉기 데이터, 조건에 따른 이미지 저장 기능 구현
+  - MachineLearning를 활용한 주민 데이터, 흉기 데이터, 조건에 따른 이미지 저장 기능 구현
 - 최명수
-  웹 페이지 Backend 담당
+  - 웹 페이지 Backend 담당
 
 ## 🖥 개발환경
 - **ROBOT** : Jetbot mini
